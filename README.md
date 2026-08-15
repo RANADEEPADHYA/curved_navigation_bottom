@@ -1,4 +1,4 @@
-# Flutter Curved Animated Bottom Navigation Bar 🎉
+# Flutter Curved Animated Bottom Navigation Bar 
 
 > **First time making a curve animated navigation bar ... pure joy **
 
@@ -19,7 +19,7 @@ This project may look simple, but building the curved shape and getting the anim
 The curved navigation bar is created using Flutter's `CustomPainter` and `Path`. The following diagram helped visualize the different points and `quadraticBezierTo()` operations used to construct the navigation shape.
 
 <p align="center">
-  <img src="assets/screenshots/curve_path.png" width="850">
+  <img src="assets/screenshots/curve_path.png.png" width="850">
 </p>
 
 ---
@@ -42,15 +42,15 @@ Each screenshot represents a different selected navigation index.
 
 | Index | Navigation Item | Color |
 |------:|-----------------|-------|
-| 0 | 🏠 Home | Blue |
-| 1 | 🔍 Search | Green |
-| 2 | 📷 Scan | Orange |
-| 3 | ⚙️ Settings | Purple |
-| 4 | 👤 Profile | Red |
+| 0 |  Home | Blue |
+| 1 |  Search | Green |
+| 2 |  Scan | Orange |
+| 3 |  Settings | Purple |
+| 4 |  Profile | Red |
 
 ---
 
-## ✨ About The Project
+##  About The Project
 
 This project is my first attempt at creating a custom animated curved navigation bar in Flutter.
 
@@ -84,9 +84,9 @@ The project was mainly created as a learning experiment and as a way to understa
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🎨 Custom Curved Navigation Bar
+###  Custom Curved Navigation Bar
 
 The navigation bar is completely custom-built using:
 
@@ -99,7 +99,7 @@ The navigation bar is completely custom-built using:
 
 No ready-made curved navigation package is required for the actual navigation design.
 
-### 🔵 Animated Selected Circle
+###  Animated Selected Circle
 
 When the user selects an item, the circular drop moves from the previous position to the new position.
 
@@ -119,7 +119,7 @@ CurvedAnimation(
 
 The `easeOutBack` curve gives the animation a small natural overshoot effect.
 
-### 🧭 Five Navigation Items
+###  Five Navigation Items
 
 The navigation bar contains five items:
 
@@ -133,7 +133,7 @@ Icons.person
 
 Each item has its own color.
 
-### 🌈 Dynamic Background
+###  Dynamic Background
 
 The application background changes according to the selected navigation item.
 
@@ -159,7 +159,7 @@ Profile  → Red
 
 The background transition is animated using `AnimatedContainer`.
 
-### 🎯 Selected Index
+###  Selected Index
 
 The currently selected navigation index is displayed on the screen.
 
@@ -169,7 +169,7 @@ Selected Index: 0
 
 This was also useful while developing the navigation logic because it made it easy to verify that the correct item was being selected.
 
-### ⚡ Smooth Icon Animation
+###  Smooth Icon Animation
 
 The icons use:
 
@@ -185,7 +185,7 @@ AnimatedSwitcher
 
 to smoothly change their position and appearance when the selected item changes.
 
-### 📱 Responsive Layout
+###  Responsive Layout
 
 The navigation bar calculates its position based on the available screen width.
 
@@ -195,7 +195,7 @@ This allows the navigation bar to adapt to different screen widths.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Flutter** — UI framework
 - **Dart** — Programming language
@@ -210,7 +210,7 @@ This allows the navigation bar to adapt to different screen widths.
 
 ---
 
-## 🧠 How The Animation Works
+##  How The Animation Works
 
 The most interesting part of this project is calculating the position of the selected circle.
 
@@ -263,7 +263,7 @@ and redraws the curved navigation bar as the animation progresses.
 
 ---
 
-## 🎨 Creating The Curve
+##  Creating The Curve
 
 The navigation shape is created using Flutter's `Path` API.
 
@@ -302,7 +302,7 @@ This was probably the most interesting part of the project to understand.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 lib/
@@ -368,7 +368,7 @@ Responsible for:
 
 ---
 
-## ▶️ Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -398,7 +398,7 @@ You can run it on an Android device, emulator, Chrome, Edge, or another supporte
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 The main external dependency used by this project is:
 
@@ -412,7 +412,7 @@ No dedicated curved-navigation package is required.
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 This project taught me much more than simply creating a bottom navigation bar.
 
@@ -440,7 +440,7 @@ The biggest learning moment was understanding that the curved navigation bar is 
 
 ---
 
-## ❤️ Why I Made This
+##  Why I Made This
 
 This project started as an experiment.
 
@@ -452,11 +452,11 @@ But getting the animation to finally move correctly between all five icons was *
 
 This is my **first curve animated navigation bar**, and although it is still a learning project, it represents an important step in understanding custom Flutter UI and animations.
 
-> **First time making a curve animated navigation bar ... pure joy 💙**
+> **First time making a curve animated navigation bar ... pure joy **
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Some improvements I would like to add in the future:
 
@@ -477,7 +477,7 @@ Some improvements I would like to add in the future:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This is primarily a learning project, but suggestions and improvements are welcome.
 
@@ -487,21 +487,21 @@ You can also fork the repository and experiment with your own version of the cur
 
 ---
 
-## ⭐ Support
+##  Support
 
-If you found this project useful or interesting, consider giving the repository a ⭐ on GitHub.
+If you found this project useful or interesting, consider giving the repository a  on GitHub.
 
 It helps motivate me to continue experimenting with Flutter animations, custom UI, and more advanced app development.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available under the MIT License.
 
 ---
 
-## 👨‍💻 Final Note
+##  Final Note
 
 This project may be small, but it was a valuable learning experience.
 
